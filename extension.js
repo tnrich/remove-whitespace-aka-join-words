@@ -17,10 +17,12 @@ function activate(context) {
         // Display a message box to the user
         const editor = vscode.window.activeTextEditor
         
-        const text = editor.document.getText(editor.selection)
-        const newText = text.replace(/\s/g, "");
+        const texts = editor.selections.map((selection) => editor.document.getText(selection)) 
+        const newTexts =  texts.map((text) => text.replace(/\s/g, ""))
         editor.edit((editBuilder) => {
-            editBuilder.replace(editor.selection, newText)
+            editor.selections.map((selection, i) => {
+                editBuilder.replace(selection, newTexts[i])
+            })
         })
 
     });

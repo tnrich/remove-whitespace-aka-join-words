@@ -1,7 +1,7 @@
 {
     "name": "remove-whitespace-aka-join-words",
     "displayName": "remove-whitespace-aka-join-words",
-    "description": "Util to remove all whitespace in a given selection",
+    "description": "VSCode util to remove all whitespace in a given selection",
     "version": "0.0.1",
     "publisher": "tnrich",
     "engines": {
