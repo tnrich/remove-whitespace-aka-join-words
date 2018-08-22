@@ -4,7 +4,7 @@
     "description": "VSCode util to remove all whitespace in a given selection",
     "version": "0.0.1",
     "repository": {
-        "type": "github",
+        "type": "",
         "url": "https://github.com/tnrich/remove-whitespace-aka-join-words"
     },
     "publisher": "tnrich",
