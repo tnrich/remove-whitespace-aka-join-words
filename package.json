@@ -11,14 +11,20 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:remove_whitespace.removeWhitespaceAkaJoinWords"
     ],
     "main": "./extension",
     "contributes": {
+        "keybindings":[
+            {
+                "command": "remove_whitespace.removeWhitespaceAkaJoinWords",
+                "key": "ctrl-alt-cmd-j"
+            }
+        ],
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "remove_whitespace.removeWhitespaceAkaJoinWords",
+                "title": "Remove Whitespace (Join Words)"
             }
         ]
     },
