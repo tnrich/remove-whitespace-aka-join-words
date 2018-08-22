@@ -3,6 +3,10 @@
     "displayName": "remove-whitespace-aka-join-words",
     "description": "VSCode util to remove all whitespace in a given selection",
     "version": "0.0.1",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/tnrich/remove-whitespace-aka-join-words"
+    },
     "publisher": "tnrich",
     "engines": {
         "vscode": "^1.26.0"
