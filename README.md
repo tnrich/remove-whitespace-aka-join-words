@@ -1,7 +1,5 @@
 # remove-whitespace-aka-join-words README
 
-This is the README for your extension "remove-whitespace-aka-join-words". After writing up a brief description, we recommend including the following sections.
-
 ## Features
 ![asdf](https://user-images.githubusercontent.com/2730609/44489635-d51dfd00-a610-11e8-8ae5-b63acad6a0cb.gif)
 
